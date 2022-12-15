@@ -3,7 +3,7 @@
 - This has been tested on UE4.26. It may not work on UE4.27 or UE5, as the editor module may cause conflicts.
 - This has not been tested for packaging and may not be compatible with platforms other than Windows.
 - This includes exclusive variable pins for blueprint nodes and an exclusive variable properties panel. It is almost identical to the original numerical data type.
-- 
+
 ## 1.New Types
 #### A.Big Int (BI)
 BI represents a large integer number.
