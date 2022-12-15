@@ -1,12 +1,16 @@
 # Getting Started
+## 0.Plugin Info
+- This has been tested on UE4.26. It may not work on UE4.27 or UE5, as the editor module may cause conflicts.
+- This has not been tested for packaging and may not be compatible with platforms other than Windows.
+- This includes exclusive variable pins for blueprint nodes and an exclusive variable properties panel. It is almost identical to the original numerical data type.
 
-### 1.New Types
+## 1.New Types
 #### A.Big Int (BI)
 BI represents a large integer number.
 #### B.Big Decimal (BD)
 BD represents a large decimal number.
 
-### 2.Conversion
+## 2.Conversion
 #### ----Keywords: From / To /Conver
 
 BI and BD can be converted to and from the following types:
@@ -18,7 +22,7 @@ BI and BD can be converted to and from the following types:
 
 #### String Modes
 
-#### Decimal (Dec)
+#### Decimal Mode(Dec)
 Example decimal strings:
 
 - 1.23456
@@ -27,7 +31,7 @@ Example decimal strings:
 
 Note: Only decimal digits up to 9 are valid.
 
-#### ABC
+#### ABC Mode
 Example ABC strings:
 - 1A234(1234)
 - 1A234.12345(1234.12345)
